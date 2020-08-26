@@ -22,7 +22,7 @@ def drawScore(count):
 #적이 화면 아래로 통과한 개수
 def drawPassed(count):
     global gamepad
-    font = pygame.fontSysFont(Nonem,20)
+    font = pygame.fontSysFont(None,20)
     text = font.render('Enemy Passed' + str(count), True, RED)
     gamepad.blit(text,(360,0))
 
